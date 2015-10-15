@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB3F4AF9ED7E19CAF2095B3C /* CvVideoCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3F427D776F939A8BF2182D /* CvVideoCapture.h */; };
+		AB3F4CC2822D7E888B4930B9 /* CvVideoCapture.mm in Sources */ = {isa = PBXBuildFile; fileRef = AB3F44F281D3A4DF6B6CABBC /* CvVideoCapture.mm */; };
 		B6A065BB1BBDC54F002499A1 /* CvFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B6A065B91BBDC54F002499A1 /* CvFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6A065BC1BBDC54F002499A1 /* CvFileManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6A065BA1BBDC54F002499A1 /* CvFileManager.mm */; settings = {ASSET_TAGS = (); }; };
 		B6DA93AA1BB0596B00832EB7 /* OpencvSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = B6DA93A91BB0596B00832EB7 /* OpencvSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,6 +48,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB3F427D776F939A8BF2182D /* CvVideoCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CvVideoCapture.h; sourceTree = "<group>"; };
+		AB3F44F281D3A4DF6B6CABBC /* CvVideoCapture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CvVideoCapture.mm; sourceTree = "<group>"; };
 		B6A065B91BBDC54F002499A1 /* CvFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CvFileManager.h; sourceTree = "<group>"; };
 		B6A065BA1BBDC54F002499A1 /* CvFileManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CvFileManager.mm; sourceTree = "<group>"; };
 		B6DA93A61BB0596B00832EB7 /* OpencvSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OpencvSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,6 +166,8 @@
 				B6DA948B1BB2F75500832EB7 /* CvContourManager.mm */,
 				B6A065B91BBDC54F002499A1 /* CvFileManager.h */,
 				B6A065BA1BBDC54F002499A1 /* CvFileManager.mm */,
+				AB3F44F281D3A4DF6B6CABBC /* CvVideoCapture.mm */,
+				AB3F427D776F939A8BF2182D /* CvVideoCapture.h */,
 			);
 			path = OpencvSwift;
 			sourceTree = "<group>";
@@ -186,6 +192,7 @@
 				B6DA93D61BB05AAE00832EB7 /* ImageProcessing.h in Headers */,
 				B6DA93D71BB05AAE00832EB7 /* ImageUtilitys.h in Headers */,
 				B6DA93DD1BB05AAE00832EB7 /* CvVideoCameraAdapter.h in Headers */,
+				AB3F4AF9ED7E19CAF2095B3C /* CvVideoCapture.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +279,7 @@
 				B6DA94891BB2F62000832EB7 /* CvContour.mm in Sources */,
 				B6DA946A1BB0A2A800832EB7 /* OperatorsOverloading.mm in Sources */,
 				B6DA943C1BB0925200832EB7 /* Operators.swift in Sources */,
+				AB3F4CC2822D7E888B4930B9 /* CvVideoCapture.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

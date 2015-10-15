@@ -22,3 +22,4 @@ FOUNDATION_EXPORT const unsigned char OpencvSwiftVersionString[];
 #import "OperatorsOverloading.h"
 #import "CvContour.h"
 #import "CvFileManager.h"
+#import "CvVideoCapture.h"

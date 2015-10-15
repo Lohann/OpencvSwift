@@ -32,7 +32,7 @@
     } else if (strcmp([n objCType], @encode(double)) == 0) {
         _fileStorage << [text UTF8String] << [n doubleValue];
     } else if (strcmp([n objCType], @encode(NSInteger)) == 0) {
-        _fileStorage << [text UTF8String] << [n integerValue];
+        _fileStorage << [text UTF8String] << [n intValue];
     } else if (strcmp([n objCType], @encode(float)) == 0) {
         _fileStorage << [text UTF8String] << [n floatValue];
     } else if (strcmp([n objCType], @encode(char)) == 0) {
@@ -95,7 +95,7 @@
     } else if (strcmp([n objCType], @encode(double)) == 0) {
         _fileStorage << [n doubleValue];
     } else if (strcmp([n objCType], @encode(NSInteger)) == 0) {
-        _fileStorage << [n integerValue];
+        _fileStorage << [n intValue];
     } else if (strcmp([n objCType], @encode(float)) == 0) {
         _fileStorage << [n floatValue];
     } else if (strcmp([n objCType], @encode(char)) == 0) {

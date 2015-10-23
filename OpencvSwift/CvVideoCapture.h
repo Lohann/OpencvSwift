@@ -14,6 +14,10 @@
 
 - (BOOL)open:(NSString*)url;
 
-- (BOOL)read:(CvMat*)dst;
+- (BOOL)grab;
+
+- (CvMat*)retrieve;
+
+- (CvMat*)read;
 
 @end

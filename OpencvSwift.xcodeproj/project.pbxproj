@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB3F4AF9ED7E19CAF2095B3C /* CvVideoCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3F427D776F939A8BF2182D /* CvVideoCapture.h */; };
+		AB3F4AF9ED7E19CAF2095B3C /* CvVideoCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3F427D776F939A8BF2182D /* CvVideoCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB3F4CC2822D7E888B4930B9 /* CvVideoCapture.mm in Sources */ = {isa = PBXBuildFile; fileRef = AB3F44F281D3A4DF6B6CABBC /* CvVideoCapture.mm */; };
 		B6A065BB1BBDC54F002499A1 /* CvFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B6A065B91BBDC54F002499A1 /* CvFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6A065BC1BBDC54F002499A1 /* CvFileManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6A065BA1BBDC54F002499A1 /* CvFileManager.mm */; settings = {ASSET_TAGS = (); }; };
@@ -44,7 +44,6 @@
 		B6DA94891BB2F62000832EB7 /* CvContour.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6DA94871BB2F62000832EB7 /* CvContour.mm */; settings = {ASSET_TAGS = (); }; };
 		B6DA948C1BB2F75500832EB7 /* CvContourManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B6DA948A1BB2F75500832EB7 /* CvContourManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6DA948D1BB2F75500832EB7 /* CvContourManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6DA948B1BB2F75500832EB7 /* CvContourManager.mm */; settings = {ASSET_TAGS = (); }; };
-		B6DB3C551BCF098B0016B6E0 /* CvFileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DB3C541BCF098B0016B6E0 /* CvFileStorage.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,7 +86,6 @@
 		B6DA94871BB2F62000832EB7 /* CvContour.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CvContour.mm; sourceTree = "<group>"; };
 		B6DA948A1BB2F75500832EB7 /* CvContourManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CvContourManager.h; sourceTree = "<group>"; };
 		B6DA948B1BB2F75500832EB7 /* CvContourManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CvContourManager.mm; sourceTree = "<group>"; };
-		B6DB3C541BCF098B0016B6E0 /* CvFileStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CvFileStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,7 +156,6 @@
 				B6DA94681BB0A2A800832EB7 /* OperatorsOverloading.mm */,
 				B6DA943B1BB0925200832EB7 /* Operators.swift */,
 				B6DA94841BB2259D00832EB7 /* Cv3Extension.swift */,
-				B6DB3C541BCF098B0016B6E0 /* CvFileStorage.swift */,
 				B6DA93AB1BB0596B00832EB7 /* Info.plist */,
 				B6DA94861BB2F62000832EB7 /* CvContour.h */,
 				B6DA94871BB2F62000832EB7 /* CvContour.mm */,
@@ -166,8 +163,8 @@
 				B6DA948B1BB2F75500832EB7 /* CvContourManager.mm */,
 				B6A065B91BBDC54F002499A1 /* CvFileManager.h */,
 				B6A065BA1BBDC54F002499A1 /* CvFileManager.mm */,
-				AB3F44F281D3A4DF6B6CABBC /* CvVideoCapture.mm */,
 				AB3F427D776F939A8BF2182D /* CvVideoCapture.h */,
+				AB3F44F281D3A4DF6B6CABBC /* CvVideoCapture.mm */,
 			);
 			path = OpencvSwift;
 			sourceTree = "<group>";
@@ -189,10 +186,10 @@
 				B6DA94691BB0A2A800832EB7 /* OperatorsOverloading.h in Headers */,
 				B6DA93DA1BB05AAE00832EB7 /* CvMat.h in Headers */,
 				B6DA948C1BB2F75500832EB7 /* CvContourManager.h in Headers */,
+				AB3F4AF9ED7E19CAF2095B3C /* CvVideoCapture.h in Headers */,
 				B6DA93D61BB05AAE00832EB7 /* ImageProcessing.h in Headers */,
 				B6DA93D71BB05AAE00832EB7 /* ImageUtilitys.h in Headers */,
 				B6DA93DD1BB05AAE00832EB7 /* CvVideoCameraAdapter.h in Headers */,
-				AB3F4AF9ED7E19CAF2095B3C /* CvVideoCapture.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +226,7 @@
 				TargetAttributes = {
 					B6DA93A51BB0596B00832EB7 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = C5Q4T4S7E9;
+						DevelopmentTeam = 2PY9785G78;
 					};
 				};
 			};
@@ -275,7 +272,6 @@
 				B6DA93D21BB05AAE00832EB7 /* Cv3.mm in Sources */,
 				B6DA93DB1BB05AAE00832EB7 /* CvVideoCameraAdapter.mm in Sources */,
 				B6DA948D1BB2F75500832EB7 /* CvContourManager.mm in Sources */,
-				B6DB3C551BCF098B0016B6E0 /* CvFileStorage.swift in Sources */,
 				B6DA94891BB2F62000832EB7 /* CvContour.mm in Sources */,
 				B6DA946A1BB0A2A800832EB7 /* OperatorsOverloading.mm in Sources */,
 				B6DA943C1BB0925200832EB7 /* Operators.swift in Sources */,
@@ -382,6 +378,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -396,6 +393,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BEPiD.OpencvSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -406,6 +404,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -419,6 +418,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BEPiD.OpencvSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;

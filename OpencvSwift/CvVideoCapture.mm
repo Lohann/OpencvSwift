@@ -15,7 +15,7 @@
 - (instancetype)init
 {
 	if(self = [super init]) {
-		_videoCapture = cv::VideoCapture(0);
+        _videoCapture = cv::VideoCapture();
 	}
 	return self;
 }
@@ -38,10 +38,27 @@
 	return _videoCapture.open([url UTF8String]);
 }
 
-- (BOOL)read:(CvMat*)dst
+- (BOOL)grab
 {
-	cv::Mat *dstMat = (cv::Mat*)[dst getCvMat];
-	return _videoCapture.read(*dstMat);
+    return _videoCapture.grab();
+}
+
+- (CvMat*)retrieve
+{
+    cv::Mat frame;
+    if(_videoCapture.retrieve(frame)) {
+        return [[CvMat alloc]initWithCvMat:&frame retain:YES];
+    }
+    return nil;
+}
+
+- (CvMat* )read
+{
+    cv::Mat frame;
+    if (_videoCapture.read(frame)) {
+        return [[CvMat alloc]initWithCvMat:&frame retain:YES];
+    }
+    return nil;
 }
 
 @end

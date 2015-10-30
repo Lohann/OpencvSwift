@@ -10,7 +10,7 @@
 		AB3F4AF9ED7E19CAF2095B3C /* CvVideoCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = AB3F427D776F939A8BF2182D /* CvVideoCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB3F4CC2822D7E888B4930B9 /* CvVideoCapture.mm in Sources */ = {isa = PBXBuildFile; fileRef = AB3F44F281D3A4DF6B6CABBC /* CvVideoCapture.mm */; };
 		B6A065BB1BBDC54F002499A1 /* CvFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B6A065B91BBDC54F002499A1 /* CvFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6A065BC1BBDC54F002499A1 /* CvFileManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6A065BA1BBDC54F002499A1 /* CvFileManager.mm */; settings = {ASSET_TAGS = (); }; };
+		B6A065BC1BBDC54F002499A1 /* CvFileManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6A065BA1BBDC54F002499A1 /* CvFileManager.mm */; };
 		B6DA93AA1BB0596B00832EB7 /* OpencvSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = B6DA93A91BB0596B00832EB7 /* OpencvSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6DA93B21BB05A1D00832EB7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DA93B11BB05A1D00832EB7 /* Accelerate.framework */; };
 		B6DA93B41BB05A2400832EB7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DA93B31BB05A2400832EB7 /* AVFoundation.framework */; };
@@ -20,30 +20,30 @@
 		B6DA93BC1BB05A5000832EB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DA93BB1BB05A5000832EB7 /* CoreGraphics.framework */; };
 		B6DA93BE1BB05A5800832EB7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DA93BD1BB05A5800832EB7 /* CoreMedia.framework */; };
 		B6DA93C01BB05A6E00832EB7 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DA93BF1BB05A6E00832EB7 /* opencv2.framework */; };
-		B6DA93D21BB05AAE00832EB7 /* Cv3.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6DA93C11BB05AAE00832EB7 /* Cv3.mm */; settings = {ASSET_TAGS = (); }; };
+		B6DA93D21BB05AAE00832EB7 /* Cv3.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6DA93C11BB05AAE00832EB7 /* Cv3.mm */; };
 		B6DA93D31BB05AAE00832EB7 /* Cv3.h in Headers */ = {isa = PBXBuildFile; fileRef = B6DA93C21BB05AAE00832EB7 /* Cv3.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6DA93D41BB05AAE00832EB7 /* ImageUtilitys.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6DA93C31BB05AAE00832EB7 /* ImageUtilitys.mm */; settings = {ASSET_TAGS = (); }; };
-		B6DA93D51BB05AAE00832EB7 /* ImageProcessing.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6DA93C41BB05AAE00832EB7 /* ImageProcessing.mm */; settings = {ASSET_TAGS = (); }; };
+		B6DA93D41BB05AAE00832EB7 /* ImageUtilitys.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6DA93C31BB05AAE00832EB7 /* ImageUtilitys.mm */; };
+		B6DA93D51BB05AAE00832EB7 /* ImageProcessing.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6DA93C41BB05AAE00832EB7 /* ImageProcessing.mm */; };
 		B6DA93D61BB05AAE00832EB7 /* ImageProcessing.h in Headers */ = {isa = PBXBuildFile; fileRef = B6DA93C51BB05AAE00832EB7 /* ImageProcessing.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B6DA93D71BB05AAE00832EB7 /* ImageUtilitys.h in Headers */ = {isa = PBXBuildFile; fileRef = B6DA93C61BB05AAE00832EB7 /* ImageUtilitys.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		B6DA93D81BB05AAE00832EB7 /* CvCamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6DA93C71BB05AAE00832EB7 /* CvCamera.mm */; settings = {ASSET_TAGS = (); }; };
-		B6DA93D91BB05AAE00832EB7 /* CvMat.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6DA93C81BB05AAE00832EB7 /* CvMat.mm */; settings = {ASSET_TAGS = (); }; };
+		B6DA93D81BB05AAE00832EB7 /* CvCamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6DA93C71BB05AAE00832EB7 /* CvCamera.mm */; };
+		B6DA93D91BB05AAE00832EB7 /* CvMat.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6DA93C81BB05AAE00832EB7 /* CvMat.mm */; };
 		B6DA93DA1BB05AAE00832EB7 /* CvMat.h in Headers */ = {isa = PBXBuildFile; fileRef = B6DA93C91BB05AAE00832EB7 /* CvMat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6DA93DB1BB05AAE00832EB7 /* CvVideoCameraAdapter.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6DA93CA1BB05AAE00832EB7 /* CvVideoCameraAdapter.mm */; settings = {ASSET_TAGS = (); }; };
+		B6DA93DB1BB05AAE00832EB7 /* CvVideoCameraAdapter.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6DA93CA1BB05AAE00832EB7 /* CvVideoCameraAdapter.mm */; };
 		B6DA93DC1BB05AAE00832EB7 /* CvCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = B6DA93CB1BB05AAE00832EB7 /* CvCamera.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6DA93DD1BB05AAE00832EB7 /* CvVideoCameraAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = B6DA93CC1BB05AAE00832EB7 /* CvVideoCameraAdapter.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		B6DA93E01BB05AAE00832EB7 /* CvType.h in Headers */ = {isa = PBXBuildFile; fileRef = B6DA93CF1BB05AAE00832EB7 /* CvType.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6DA93E11BB05AAE00832EB7 /* CvType.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6DA93D01BB05AAE00832EB7 /* CvType.mm */; settings = {ASSET_TAGS = (); }; };
+		B6DA93E11BB05AAE00832EB7 /* CvType.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6DA93D01BB05AAE00832EB7 /* CvType.mm */; };
 		B6DA93E21BB05AAE00832EB7 /* CvColor.h in Headers */ = {isa = PBXBuildFile; fileRef = B6DA93D11BB05AAE00832EB7 /* CvColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6DA93E41BB05CE300832EB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6DA93E31BB05CE300832EB7 /* UIKit.framework */; };
-		B6DA943C1BB0925200832EB7 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DA943B1BB0925200832EB7 /* Operators.swift */; settings = {ASSET_TAGS = (); }; };
+		B6DA943C1BB0925200832EB7 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DA943B1BB0925200832EB7 /* Operators.swift */; };
 		B6DA94691BB0A2A800832EB7 /* OperatorsOverloading.h in Headers */ = {isa = PBXBuildFile; fileRef = B6DA94671BB0A2A800832EB7 /* OperatorsOverloading.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6DA946A1BB0A2A800832EB7 /* OperatorsOverloading.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6DA94681BB0A2A800832EB7 /* OperatorsOverloading.mm */; settings = {ASSET_TAGS = (); }; };
-		B6DA94851BB2259D00832EB7 /* Cv3Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DA94841BB2259D00832EB7 /* Cv3Extension.swift */; settings = {ASSET_TAGS = (); }; };
+		B6DA946A1BB0A2A800832EB7 /* OperatorsOverloading.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6DA94681BB0A2A800832EB7 /* OperatorsOverloading.mm */; };
+		B6DA94851BB2259D00832EB7 /* Cv3Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DA94841BB2259D00832EB7 /* Cv3Extension.swift */; };
 		B6DA94881BB2F62000832EB7 /* CvContour.h in Headers */ = {isa = PBXBuildFile; fileRef = B6DA94861BB2F62000832EB7 /* CvContour.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6DA94891BB2F62000832EB7 /* CvContour.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6DA94871BB2F62000832EB7 /* CvContour.mm */; settings = {ASSET_TAGS = (); }; };
+		B6DA94891BB2F62000832EB7 /* CvContour.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6DA94871BB2F62000832EB7 /* CvContour.mm */; };
 		B6DA948C1BB2F75500832EB7 /* CvContourManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B6DA948A1BB2F75500832EB7 /* CvContourManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6DA948D1BB2F75500832EB7 /* CvContourManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6DA948B1BB2F75500832EB7 /* CvContourManager.mm */; settings = {ASSET_TAGS = (); }; };
+		B6DA948D1BB2F75500832EB7 /* CvContourManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = B6DA948B1BB2F75500832EB7 /* CvContourManager.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */

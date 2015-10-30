@@ -712,4 +712,9 @@ typedef struct CvMinMax CvMinMax;
 //! makes multi-channel array out of several single-channel arrays
 + (void) merge:(NSArray<CvMat*>*)channels dst:(CvMat*) dst;
 
+//! Flip the CvMat
++ (void) flip:(CvMat*) src
+          dst:(CvMat*) dst
+         mode:(int) flip_mode;
+
 @end

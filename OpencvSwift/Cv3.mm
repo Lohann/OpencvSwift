@@ -1466,4 +1466,16 @@
     cv::merge(channelsVector, *dstMat);
 }
 
+// ------------     Flip     ------------ //
+#pragma mark Flip
++ (void) flip:(CvMat*) src
+          dst:(CvMat*) dst
+         mode:(int) flip_mode
+{
+    cv::Mat *srcMat = (cv::Mat*)[src getCvMat];
+    cv::Mat *dstMat = (cv::Mat*)[dst getCvMat];
+    
+    cv::flip(*srcMat, *dstMat, flip_mode);
+}
+
 @end
